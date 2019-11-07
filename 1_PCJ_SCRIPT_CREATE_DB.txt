@@ -1,0 +1,34 @@
+PJC - Projeto Teste Prático Administração de Dados
+pjc_adm_dados - github
+
+Installation Directory: C:\Program Files\PostgreSQL\10
+Server Installation Directory: C:\Program Files\PostgreSQL\10
+Data Directory: C:\Program Files\PostgreSQL\10\data
+Database Port: 5432
+Database Superuser: postgres
+Operating System Account: NT AUTHORITY\NetworkService
+Database Service: postgresql-x64-10
+Command Line Tools Installation Directory: C:\Program Files\PostgreSQL\10
+pgAdmin4 Installation Directory: C:\Program Files\PostgreSQL\10\pgAdmin 4
+Stack Builder Installation Directory: C:\Program Files\PostgreSQL\10
+
+INSTALL POSTGRESQL 10
+USUARIO POSTGRES
+SENHA - 12345678
+PORTA PADRÃO 5432
+LOCALE - DEFAULT LOCALE
+
+http://127.0.0.1:58416/browser/
+
+CREATE DATABASE conveniencia
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Portuguese_Brazil.1252'
+    LC_CTYPE = 'Portuguese_Brazil.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+
+COMMENT ON DATABASE conveniencia
+    IS 'PJC - TESTE PRATICO ADMINISTRADOR DE DADOS -
+EWERTON_MAIK';
